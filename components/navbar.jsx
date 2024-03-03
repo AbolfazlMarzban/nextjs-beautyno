@@ -61,7 +61,7 @@ function Navbar(props) {
         </li>
 
         <li className="  my-4">
-          <Link href="/Cart" className="flex">
+          <Link href="/cart" className="flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
