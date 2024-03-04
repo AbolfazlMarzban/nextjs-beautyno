@@ -1,15 +1,21 @@
 import React from 'react';
-import profile from "../../../assets/images/background.png";
-
+import profile from "@/public/images/background.png";
+import Image from 'next/image';
 
 function SearchResult(props) {
     return (
         <div className='flex items-center justify-start p-3 rounded-lg border w-full'>
             <div className="basis-1/8">
             <div   
-              className="w-16 h-16 rounded-full bg-cover bg-center"
-              style={{ backgroundImage: `url(${profile})` }}
-            ></div>
+              className="w-16 h-16 rounded-full relative"
+            >
+               <Image
+                src={profile}
+                layout="fill"
+                objectFit="cover"
+                className="rounded-full"
+              ></Image>
+            </div>
             </div>
             <div className="basis-7/8 pr-4 flex flex-col items-start ml-4">
             <span className="text-md font-bold">UserName</span>

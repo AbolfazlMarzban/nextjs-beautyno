@@ -79,7 +79,7 @@ function Navbar(props) {
           </Link>
         </li>
         <li className=" flex my-4">
-          <Link href="/Profile" className="flex">
+          <Link href="/profile" className="flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ProfilePage({}) {
   return (
-    <div className="flex flex-col h-full justify-center">
+    <div className="flex flex-col h-full justify-center mt-14">
       <div className="w-full flex justify-center items-center">
         <div className="w-1/2 flex flex-col">
           <Link href="/user" className="w-full">
