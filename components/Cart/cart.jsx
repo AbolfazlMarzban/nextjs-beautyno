@@ -6,7 +6,7 @@ export default function Cart({}){
         <div className='flex flex-col w-full h-full items-center justify-center'>
      
         <div className='w-full max-w-3xl flex flex-col items-center justify-center'>
-            <div>
+            <div className="mt-4"> 
             <h2 className="text-xl font-bold">Cart</h2>
             </div>
             <CartItems/>
