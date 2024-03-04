@@ -3,7 +3,7 @@ import FavItems from "./favItems"
 
 export default function FavouritesPage({}){
     return(
-        <div className='flex flex-col h-full items-center justify-center'>
+        <div className='flex flex-col h-full items-center justify-center mt-10'>
      
         <div className='flex flex-col w-full max-w-3xl items-center justify-center'>
             <div>

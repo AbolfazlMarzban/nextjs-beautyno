@@ -27,7 +27,7 @@ export default function ProfilePage({}) {
               Your Services
             </button>
           </Link>
-          <Link href="/Favourites" className="flex">
+          <Link href="/profile/favourites" className="flex">
             <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2 w-full">
               Your Favourites
             </button>

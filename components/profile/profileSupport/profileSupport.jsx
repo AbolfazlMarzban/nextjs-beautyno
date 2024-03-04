@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function ProfileSupport({}) {
   const [showModal, setShowModal] = useState(false);
   return (
-    <div className="flex flex-col h-full items-center justify-center">
+    <div className="flex flex-col h-full items-center justify-center mt-10">
       <div className="w-full flex flex-col items-center justify-center max-w-3xl">
         <div>
           <h2 className="text-xl font-bold">Support</h2>
