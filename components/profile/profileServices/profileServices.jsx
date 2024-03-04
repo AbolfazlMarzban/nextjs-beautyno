@@ -5,7 +5,7 @@ import PServiceItems from "./pServiceItems";
 export default function ProfileServices() {
   const [showModal, setShowModal] = useState(false);
   return (
-    <div className="flex flex-col h-full justify-center items-center">
+    <div className="flex flex-col h-full justify-center items-center mt-10">
       <div className="flex flex-col items-center justify-center w-full max-w-3xl">
         <div>
           <h2 className="text-xl font-bold">Your Services</h2>

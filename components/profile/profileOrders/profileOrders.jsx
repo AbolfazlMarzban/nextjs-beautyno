@@ -3,10 +3,10 @@ import POrderItems from "./pOrderItems";
 
 export default function ProfileOrders({}) {
   return (
-    <div className="flex flex-col h-full items-center justify-center">
+    <div className="flex flex-col h-full items-center justify-center mt-10">
       <div className="flex flex-col items-center justify-center w-full max-w-3xl">
         <div className="w-full">
-          <h2 className="text-xl font-bold">Orders</h2>
+          <h2 className="text-xl font-bold w-full text-center">Orders</h2>
           <div className="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700 justify-evenly">
             <ul className="flex flex-wrap justify-between -mb-px">
               <li className="mr-2">

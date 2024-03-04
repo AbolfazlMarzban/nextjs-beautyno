@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import Navbar from "../../navbar";
-import axios from "axios";
-import config from "../../../config";
 
 export default function ProfileInfo() {
   const [profilePic, setProfilePic] = useState("");
@@ -9,15 +7,9 @@ export default function ProfileInfo() {
     var url = URL.createObjectURL(ev.target.files[0]);
     setProfilePic(url);
   }
-  useEffect(()=>{
-    (async()=>{
-      console.log('base')
-      const info = await axios.get(`${config.server}/`)
-      console.log('info', info)
-    })()
-  }, [])
+
   return (
-    <div className="flex flex-col h-full items-center justify-center">
+    <div className="flex flex-col h-full items-center justify-center mt-10">
       <div className="flex flex-col items-center justify-center w-full max-w-3xl">
         <div className="w-full flex flex-col items-start gap-2 justify-center max-sm:p-3">
           <label htmlFor="">Profile Picture:</label>
